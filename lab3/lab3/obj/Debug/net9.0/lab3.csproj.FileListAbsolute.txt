@@ -1,0 +1,14 @@
+C:\Szkola\c#\lab3\lab3\bin\Debug\net9.0\lab3.exe
+C:\Szkola\c#\lab3\lab3\bin\Debug\net9.0\lab3.deps.json
+C:\Szkola\c#\lab3\lab3\bin\Debug\net9.0\lab3.runtimeconfig.json
+C:\Szkola\c#\lab3\lab3\bin\Debug\net9.0\lab3.dll
+C:\Szkola\c#\lab3\lab3\bin\Debug\net9.0\lab3.pdb
+C:\Szkola\c#\lab3\lab3\obj\Debug\net9.0\lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Szkola\c#\lab3\lab3\obj\Debug\net9.0\lab3.AssemblyInfoInputs.cache
+C:\Szkola\c#\lab3\lab3\obj\Debug\net9.0\lab3.AssemblyInfo.cs
+C:\Szkola\c#\lab3\lab3\obj\Debug\net9.0\lab3.csproj.CoreCompileInputs.cache
+C:\Szkola\c#\lab3\lab3\obj\Debug\net9.0\lab3.dll
+C:\Szkola\c#\lab3\lab3\obj\Debug\net9.0\refint\lab3.dll
+C:\Szkola\c#\lab3\lab3\obj\Debug\net9.0\lab3.pdb
+C:\Szkola\c#\lab3\lab3\obj\Debug\net9.0\lab3.genruntimeconfig.cache
+C:\Szkola\c#\lab3\lab3\obj\Debug\net9.0\ref\lab3.dll
