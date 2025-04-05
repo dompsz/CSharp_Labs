@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.17763": {
+      "CommunityToolkit.WinUI.UI.Controls.DataGrid/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.0.0"
+        },
+        "compile": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2903.40": {
         "type": "package",
         "build": {
@@ -108,6 +124,22 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
+      "CommunityToolkit.WinUI.UI.Controls.DataGrid/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.0.0"
+        },
+        "compile": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2903.40": {
         "type": "package",
         "build": {
@@ -166,6 +198,22 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm-aot": {
+      "CommunityToolkit.WinUI.UI.Controls.DataGrid/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.0.0"
+        },
+        "compile": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2903.40": {
         "type": "package",
         "build": {
@@ -224,6 +272,22 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
+      "CommunityToolkit.WinUI.UI.Controls.DataGrid/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.0.0"
+        },
+        "compile": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2903.40": {
         "type": "package",
         "build": {
@@ -282,6 +346,22 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
+      "CommunityToolkit.WinUI.UI.Controls.DataGrid/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.0.0"
+        },
+        "compile": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2903.40": {
         "type": "package",
         "build": {
@@ -340,6 +420,22 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64-aot": {
+      "CommunityToolkit.WinUI.UI.Controls.DataGrid/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.0.0"
+        },
+        "compile": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2903.40": {
         "type": "package",
         "build": {
@@ -398,6 +494,22 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
+      "CommunityToolkit.WinUI.UI.Controls.DataGrid/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.0.0"
+        },
+        "compile": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2903.40": {
         "type": "package",
         "build": {
@@ -456,6 +568,22 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86-aot": {
+      "CommunityToolkit.WinUI.UI.Controls.DataGrid/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.0.0"
+        },
+        "compile": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2903.40": {
         "type": "package",
         "build": {
@@ -515,6 +643,28 @@
     }
   },
   "libraries": {
+    "CommunityToolkit.WinUI.UI.Controls.DataGrid/7.1.2": {
+      "sha512": "F73oYdYza8zhDwGHdXCZJJMeiDJ6nR97WPe180o7jOX3U90ZIqvU/GtYZdN3/x8DOS48t5GQG70LqxfyIGeaxw==",
+      "type": "package",
+      "path": "communitytoolkit.winui.ui.controls.datagrid/7.1.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "communitytoolkit.winui.ui.controls.datagrid.7.1.2.nupkg.sha512",
+        "communitytoolkit.winui.ui.controls.datagrid.nuspec",
+        "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll",
+        "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.pdb",
+        "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.pri",
+        "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.xml",
+        "lib/net5.0-windows10.0.18362/Design/CommunityToolkit.WinUI.UI.Controls.DataGrid.DesignTools.dll",
+        "lib/net5.0-windows10.0.18362/Design/CommunityToolkit.WinUI.UI.Controls.DataGrid.DesignTools.pdb",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
     "Microsoft.Web.WebView2/1.0.2903.40": {
       "sha512": "THrzYAnJgE3+cNH+9Epr44XjoZoRELdVpXlWGPs6K9C9G6TqyDfVCeVAR/Er8ljLitIUX5gaSkPsy9wRhD1sgQ==",
       "type": "package",
@@ -1365,6 +1515,7 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
+      "CommunityToolkit.WinUI.UI.Controls.DataGrid >= 7.1.2",
       "Lab6 >= 1.0.0"
     ]
   },
@@ -1375,11 +1526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Szkola\\c#\\Lab6\\Lab6 (Package)\\Lab6 (Package).wapproj",
+      "projectUniqueName": "C:\\Szkola\\CSharp\\Lab6\\Lab6 (Package)\\Lab6 (Package).wapproj",
       "projectName": "Lab6 (Package)",
-      "projectPath": "C:\\Szkola\\c#\\Lab6\\Lab6 (Package)\\Lab6 (Package).wapproj",
+      "projectPath": "C:\\Szkola\\CSharp\\Lab6\\Lab6 (Package)\\Lab6 (Package).wapproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Szkola\\c#\\Lab6\\Lab6 (Package)\\obj\\",
+      "outputPath": "C:\\Szkola\\CSharp\\Lab6\\Lab6 (Package)\\obj\\",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
@@ -1401,8 +1552,8 @@
         "uap10.0.17763": {
           "targetAlias": "net451",
           "projectReferences": {
-            "C:\\Szkola\\c#\\Lab6\\Lab6\\Lab6.csproj": {
-              "projectPath": "C:\\Szkola\\c#\\Lab6\\Lab6\\Lab6.csproj"
+            "C:\\Szkola\\CSharp\\Lab6\\Lab6\\Lab6.csproj": {
+              "projectPath": "C:\\Szkola\\CSharp\\Lab6\\Lab6\\Lab6.csproj"
             }
           }
         }
@@ -1417,6 +1568,12 @@
     "frameworks": {
       "uap10.0.17763": {
         "targetAlias": "net451",
+        "dependencies": {
+          "CommunityToolkit.WinUI.UI.Controls.DataGrid": {
+            "target": "Package",
+            "version": "[7.1.2, )"
+          }
+        },
         "imports": [
           "net8.0-windows10.0.19041",
           "netcoreapp3.1",
@@ -1458,5 +1615,17 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „CommunityToolkit.WinUI.UI.Controls.DataGrid 7.1.2” został przywrócony przy użyciu elementu „net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net9.0-windows10.0.19041, .NETFramework,Version=v4.6.1” zamiast platformy docelowej projektu „UAP,Version=v10.0.17763”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "CommunityToolkit.WinUI.UI.Controls.DataGrid",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763"
+      ]
+    }
+  ]
 }

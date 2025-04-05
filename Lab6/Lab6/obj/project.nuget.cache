@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g5BYOwCdCqM=",
+  "dgSpecHash": "SLKQPw7iYYw=",
   "success": true,
-  "projectFilePath": "C:\\Szkola\\c#\\Lab6\\Lab6\\Lab6.csproj",
+  "projectFilePath": "C:\\Szkola\\CSharp\\Lab6\\Lab6\\Lab6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.26100.1742\\microsoft.windows.sdk.buildtools.10.0.26100.1742.nupkg.sha512",

@@ -1,12 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "fy5kTCavWLA=",
+  "dgSpecHash": "L5NxRIQBZn0=",
   "success": true,
-  "projectFilePath": "C:\\Szkola\\c#\\Lab6\\Lab6 (Package)\\Lab6 (Package).wapproj",
+  "projectFilePath": "C:\\Szkola\\CSharp\\Lab6\\Lab6 (Package)\\Lab6 (Package).wapproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\communitytoolkit.winui.ui.controls.datagrid\\7.1.2\\communitytoolkit.winui.ui.controls.datagrid.7.1.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.26100.1742\\microsoft.windows.sdk.buildtools.10.0.26100.1742.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250310001\\microsoft.windowsappsdk.1.7.250310001.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „CommunityToolkit.WinUI.UI.Controls.DataGrid 7.1.2” został przywrócony przy użyciu elementu „net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net9.0-windows10.0.19041, .NETFramework,Version=v4.6.1” zamiast platformy docelowej projektu „UAP,Version=v10.0.17763”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "CommunityToolkit.WinUI.UI.Controls.DataGrid",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763"
+      ]
+    }
+  ]
 }

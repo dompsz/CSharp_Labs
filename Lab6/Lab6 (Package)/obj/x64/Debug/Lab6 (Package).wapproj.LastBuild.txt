@@ -1,17 +1,17 @@
 C:\Users\HP\.nuget\packages\microsoft.web.webview2\1.0.2903.40\buildTransitive\..\\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll
 C:\Users\HP\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net6.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll
 C:\Users\HP\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib\Microsoft.Web.WebView2.Core.winmd
-C:\Szkola\c#\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\App.xbf
-C:\Szkola\c#\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf
+C:\Szkola\CSharp\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\App.xbf
+C:\Szkola\CSharp\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf
 C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x64\ucrtbased.dll
-C:\Szkola\c#\Lab6\Lab6 (Package)\Images\SplashScreen.scale-200.png
-C:\Szkola\c#\Lab6\Lab6 (Package)\Images\LockScreenLogo.scale-200.png
-C:\Szkola\c#\Lab6\Lab6 (Package)\Images\Square150x150Logo.scale-200.png
-C:\Szkola\c#\Lab6\Lab6 (Package)\Images\Square44x44Logo.scale-200.png
-C:\Szkola\c#\Lab6\Lab6 (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
-C:\Szkola\c#\Lab6\Lab6 (Package)\Images\StoreLogo.png
-C:\Szkola\c#\Lab6\Lab6 (Package)\Images\Wide310x150Logo.scale-200.png
-C:\Szkola\c#\Lab6\Lab6 (Package)\bin\x64\Debug\resources.pri
+C:\Szkola\CSharp\Lab6\Lab6 (Package)\Images\SplashScreen.scale-200.png
+C:\Szkola\CSharp\Lab6\Lab6 (Package)\Images\LockScreenLogo.scale-200.png
+C:\Szkola\CSharp\Lab6\Lab6 (Package)\Images\Square150x150Logo.scale-200.png
+C:\Szkola\CSharp\Lab6\Lab6 (Package)\Images\Square44x44Logo.scale-200.png
+C:\Szkola\CSharp\Lab6\Lab6 (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Szkola\CSharp\Lab6\Lab6 (Package)\Images\StoreLogo.png
+C:\Szkola\CSharp\Lab6\Lab6 (Package)\Images\Wide310x150Logo.scale-200.png
+C:\Szkola\CSharp\Lab6\Lab6 (Package)\bin\x64\Debug\resources.pri
 C:\Users\HP\.nuget\packages\microsoft.web.webview2\1.0.2903.40\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll
 C:\Users\HP\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
 C:\Users\HP\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Security.Authentication.OAuth.Projection.dll
@@ -47,10 +47,10 @@ C:\Users\HP\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\runtimes\win-x
 C:\Users\HP\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll
 C:\Users\HP\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\WinRT.Runtime.dll
 C:\Users\HP\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net8.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll
-C:\Szkola\c#\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.deps.json
-C:\Szkola\c#\Lab6\Lab6\obj\x64\Debug\net8.0-windows10.0.19041.0\App.xbf
-C:\Szkola\c#\Lab6\Lab6\obj\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf
-C:\Szkola\c#\Lab6\Lab6\obj\x64\Debug\net8.0-windows10.0.19041.0\apphost.exe
-C:\Szkola\c#\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.runtimeconfig.json
-C:\Szkola\c#\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.dll
-C:\Szkola\c#\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.pdb
+C:\Szkola\CSharp\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.deps.json
+C:\Szkola\CSharp\Lab6\Lab6\obj\x64\Debug\net8.0-windows10.0.19041.0\App.xbf
+C:\Szkola\CSharp\Lab6\Lab6\obj\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf
+C:\Szkola\CSharp\Lab6\Lab6\obj\x64\Debug\net8.0-windows10.0.19041.0\apphost.exe
+C:\Szkola\CSharp\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.runtimeconfig.json
+C:\Szkola\CSharp\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.dll
+C:\Szkola\CSharp\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.pdb

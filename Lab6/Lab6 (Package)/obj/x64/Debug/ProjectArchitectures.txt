@@ -1,1 +1,1 @@
-C:\Szkola\c#\Lab6\Lab6 (Package)\Lab6 (Package).wapproj;x64
+C:\Szkola\CSharp\Lab6\Lab6 (Package)\Lab6 (Package).wapproj;x64

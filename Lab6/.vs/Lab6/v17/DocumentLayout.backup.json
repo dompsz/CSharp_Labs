@@ -1,12 +1,71 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Szkola\\c#\\Lab6\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Szkola\\CSharp\\Lab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABCF7DA3-9B53-43EA-8EB5-480B491E5ACE}|Lab6\\Lab6.csproj|c:\\szkola\\csharp\\lab6\\lab6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABCF7DA3-9B53-43EA-8EB5-480B491E5ACE}|Lab6\\Lab6.csproj|solutionrelative:lab6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABCF7DA3-9B53-43EA-8EB5-480B491E5ACE}|Lab6\\Lab6.csproj|c:\\szkola\\csharp\\lab6\\lab6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABCF7DA3-9B53-43EA-8EB5-480B491E5ACE}|Lab6\\Lab6.csproj|solutionrelative:lab6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABCF7DA3-9B53-43EA-8EB5-480B491E5ACE}|Lab6\\Lab6.csproj|c:\\szkola\\csharp\\lab6\\lab6\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABCF7DA3-9B53-43EA-8EB5-480B491E5ACE}|Lab6\\Lab6.csproj|solutionrelative:lab6\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Szkola\\CSharp\\Lab6\\Lab6\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lab6\\MainWindow.xaml",
+              "ToolTip": "C:\\Szkola\\CSharp\\Lab6\\Lab6\\MainWindow.xaml*",
+              "RelativeToolTip": "Lab6\\MainWindow.xaml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T08:16:36.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Szkola\\CSharp\\Lab6\\Lab6\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab6\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Szkola\\CSharp\\Lab6\\Lab6\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab6\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T08:16:05.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Szkola\\CSharp\\Lab6\\Lab6\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Lab6\\App.xaml.cs",
+              "ToolTip": "C:\\Szkola\\CSharp\\Lab6\\Lab6\\App.xaml.cs",
+              "RelativeToolTip": "Lab6\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T08:14:57.896Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

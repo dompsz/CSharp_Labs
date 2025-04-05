@@ -231,7 +231,7 @@ namespace Lab6.Lab6_XamlTypeInfo
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
-            _typeNameTable[4] = "Lab6.MainWindow";
+            _typeNameTable[4] = "lab6.MainWindow";
             _typeNameTable[5] = "Microsoft.UI.Xaml.Window";
             _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
             _typeNameTable[7] = "Microsoft.UI.Xaml.DependencyObject";
@@ -243,7 +243,7 @@ namespace Lab6.Lab6_XamlTypeInfo
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
-            _typeTable[4] = typeof(global::Lab6.MainWindow);
+            _typeTable[4] = typeof(global::lab6.MainWindow);
             _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Window);
             _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
             _typeTable[7] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
@@ -284,10 +284,10 @@ namespace Lab6.Lab6_XamlTypeInfo
         }
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
-        private object Activate_4_MainWindow() { return new global::Lab6.MainWindow(); }
+        private object Activate_4_MainWindow() { return new global::lab6.MainWindow(); }
         private object Activate_6_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
-        private void StaticInitializer_4_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Lab6.MainWindow).TypeHandle);
+        private void StaticInitializer_4_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::lab6.MainWindow).TypeHandle);
         private void StaticInitializer_6_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
         private void StaticInitializer_8_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
@@ -335,7 +335,7 @@ namespace Lab6.Lab6_XamlTypeInfo
                 xamlType = new global::Lab6.Lab6_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  Lab6.MainWindow
+            case 4:   //  lab6.MainWindow
                 userType = new global::Lab6.Lab6_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
                 userType.Activator = Activate_4_MainWindow;
                 userType.StaticInitializer = StaticInitializer_4_MainWindow;

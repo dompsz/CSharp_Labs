@@ -10,16 +10,16 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>fbffb7d6-8b30-476d-bde9-310bd14db6d4</PackageIdentityName>
     <PackageIdentityPublisher>CN=HP</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Szkola\c#\Lab6\Lab6 %28Package%29\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Szkola\CSharp\Lab6\Lab6 %28Package%29\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Szkola\c#\Lab6\Lab6 %28Package%29\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Szkola\CSharp\Lab6\Lab6 %28Package%29\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Szkola\c#\Lab6\Lab6 %28Package%29\bin\x64\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Szkola\CSharp\Lab6\Lab6 %28Package%29\bin\x64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
@@ -34,43 +34,43 @@
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib\Microsoft.Web.WebView2.Core.winmd">
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\App.xbf">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6 %28Package%29\Images\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6 %28Package%29\Images\SplashScreen.scale-200.png">
       <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6 %28Package%29\Images\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6 %28Package%29\Images\LockScreenLogo.scale-200.png">
       <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6 %28Package%29\Images\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6 %28Package%29\Images\Square150x150Logo.scale-200.png">
       <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6 %28Package%29\Images\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6 %28Package%29\Images\Square44x44Logo.scale-200.png">
       <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6 %28Package%29\Images\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6 %28Package%29\Images\StoreLogo.png">
       <PackagePath>Images\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6 %28Package%29\Images\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6 %28Package%29\Images\Wide310x150Logo.scale-200.png">
       <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6 %28Package%29\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6 %28Package%29\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\microsoft.web.webview2\1.0.2903.40\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
@@ -178,22 +178,22 @@
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net8.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
       <PackagePath>Lab6\Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.deps.json">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.deps.json">
       <PackagePath>Lab6\Lab6.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6\obj\x64\Debug\net8.0-windows10.0.19041.0\App.xbf">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6\obj\x64\Debug\net8.0-windows10.0.19041.0\App.xbf">
       <PackagePath>Lab6\App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6\obj\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6\obj\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>Lab6\MainWindow.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6\obj\x64\Debug\net8.0-windows10.0.19041.0\apphost.exe">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6\obj\x64\Debug\net8.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>Lab6\Lab6.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.runtimeconfig.json">
       <PackagePath>Lab6\Lab6.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Szkola\c#\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.dll">
+    <AppxPackagedFile Include="C:\Szkola\CSharp\Lab6\Lab6\bin\x64\Debug\net8.0-windows10.0.19041.0\Lab6.dll">
       <PackagePath>Lab6\Lab6.dll</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

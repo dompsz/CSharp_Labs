@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Szkola\\c#\\Lab6\\Lab6\\Lab6.csproj": {}
+    "C:\\Szkola\\CSharp\\Lab6\\Lab6\\Lab6.csproj": {}
   },
   "projects": {
-    "C:\\Szkola\\c#\\Lab6\\Lab6\\Lab6.csproj": {
+    "C:\\Szkola\\CSharp\\Lab6\\Lab6\\Lab6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Szkola\\c#\\Lab6\\Lab6\\Lab6.csproj",
+        "projectUniqueName": "C:\\Szkola\\CSharp\\Lab6\\Lab6\\Lab6.csproj",
         "projectName": "Lab6",
-        "projectPath": "C:\\Szkola\\c#\\Lab6\\Lab6\\Lab6.csproj",
+        "projectPath": "C:\\Szkola\\CSharp\\Lab6\\Lab6\\Lab6.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Szkola\\c#\\Lab6\\Lab6\\obj\\",
+        "outputPath": "C:\\Szkola\\CSharp\\Lab6\\Lab6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

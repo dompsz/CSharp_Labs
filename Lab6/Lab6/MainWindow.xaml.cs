@@ -1,36 +1,80 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Input;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Navigation;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using System.Collections.ObjectModel;
 
-// To learn more about WinUI, the WinUI project structure,
-// and more about our project templates, see: http://aka.ms/winui-project-info.
-
-namespace Lab6
+namespace lab6
 {
-    /// <summary>
-    /// An empty window that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MainWindow : Window
     {
+        private ObservableCollection<GlobalPosition> positions = new ObservableCollection<GlobalPosition>();
+        private GlobalPosition selectedPosition;
+
         public MainWindow()
         {
             this.InitializeComponent();
+            PositionsListView.ItemsSource = positions;
         }
 
-        private void myButton_Click(object sender, RoutedEventArgs e)
+        private void OnAddClicked(object sender, RoutedEventArgs e)
         {
-            myButton.Content = "Clicked";
+            if (float.TryParse(LatitudeInput.Text, out float latitude) &&
+                float.TryParse(LongitudeInput.Text, out float longitude) &&
+                float.TryParse(AltitudeInput.Text, out float altitude))
+            {
+                var position = new GlobalPosition
+                {
+                    Latitude = latitude,
+                    Longtitude = longitude,
+                    Altitude = altitude
+                };
+                positions.Add(position);
+                PositionsListView.ItemsSource = null;
+                PositionsListView.ItemsSource = positions;
+                ClearInputs();
+            }
+        }
+
+        private void OnUpdateClicked(object sender, RoutedEventArgs e)
+        {
+            if (selectedPosition != null &&
+                float.TryParse(LatitudeInput.Text, out float latitude) &&
+                float.TryParse(LongitudeInput.Text, out float longitude) &&
+                float.TryParse(AltitudeInput.Text, out float altitude))
+            {
+                selectedPosition.Latitude = latitude;
+                selectedPosition.Longtitude = longitude;
+                selectedPosition.Altitude = altitude;
+                PositionsListView.ItemsSource = null;
+                PositionsListView.ItemsSource = positions;
+                ClearInputs();
+            }
+        }
+
+        private void OnDeleteClicked(object sender, RoutedEventArgs e)
+        {
+            if (selectedPosition != null)
+            {
+                positions.Remove(selectedPosition);
+                ClearInputs();
+            }
+        }
+
+        private void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            selectedPosition = (GlobalPosition)PositionsListView.SelectedItem;
+            if (selectedPosition != null)
+            {
+                LatitudeInput.Text = selectedPosition.Latitude.ToString();
+                LongitudeInput.Text = selectedPosition.Longtitude.ToString();
+                AltitudeInput.Text = selectedPosition.Altitude.ToString();
+            }
+        }
+
+        private void ClearInputs()
+        {
+            LatitudeInput.Text = string.Empty;
+            LongitudeInput.Text = string.Empty;
+            AltitudeInput.Text = string.Empty;
         }
     }
 }
