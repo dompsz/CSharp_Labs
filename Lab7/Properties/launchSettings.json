@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ModularApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "GPS_INJECTION": "Singleton"
+      }
+    }
+  }
+}
