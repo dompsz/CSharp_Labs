@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Logowanie";
+}
+
+<h2>Zaloguj się</h2>
+
+<form method="post" asp-action="Login">
+    <label>Użytkownik: <input name="username" /></label><br />
+    <label>Rola:
+        <select name="role">
+            <option value="User">User</option>
+            <option value="Admin">Admin</option>
+        </select>
+    </label><br />
+    <button type="submit">Zaloguj</button>
+</form>

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DependencyInjectionMVC_Auth_Fixed": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63243;http://localhost:63244"
+    }
+  }
+}

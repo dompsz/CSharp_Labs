@@ -1,0 +1,59 @@
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\bin\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.staticwebassets.endpoints.json
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\bin\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.exe
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\bin\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.deps.json
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\bin\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.runtimeconfig.json
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\bin\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.dll
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\bin\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.pdb
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.AssemblyInfoInputs.cache
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.AssemblyInfo.cs
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.csproj.CoreCompileInputs.cache
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.RazorAssemblyInfo.cache
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.RazorAssemblyInfo.cs
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\scopedcss\bundle\DependencyInjectionMVC_Auth_Fixed.styles.css
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\staticwebassets\msbuild.DependencyInjectionMVC_Auth_Fixed.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\staticwebassets\msbuild.DependencyInjectionMVC_Auth_Fixed.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\staticwebassets\msbuild.build.DependencyInjectionMVC_Auth_Fixed.props
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DependencyInjectionMVC_Auth_Fixed.props
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DependencyInjectionMVC_Auth_Fixed.props
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.dll
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\refint\DependencyInjectionMVC_Auth_Fixed.dll
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.pdb
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.genruntimeconfig.cache
+C:\Users\yoowo\Downloads\wstrzykiwanie zależności\DependencyInjectionMVC_Auth_Fixed\obj\Debug\net8.0\ref\DependencyInjectionMVC_Auth_Fixed.dll
+C:\Szkola\CSharp\Lab8\bin\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.staticwebassets.endpoints.json
+C:\Szkola\CSharp\Lab8\bin\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.exe
+C:\Szkola\CSharp\Lab8\bin\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.deps.json
+C:\Szkola\CSharp\Lab8\bin\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.runtimeconfig.json
+C:\Szkola\CSharp\Lab8\bin\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.dll
+C:\Szkola\CSharp\Lab8\bin\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.pdb
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.AssemblyInfoInputs.cache
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.AssemblyInfo.cs
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.csproj.CoreCompileInputs.cache
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.MvcApplicationPartsAssemblyInfo.cache
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.RazorAssemblyInfo.cache
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.RazorAssemblyInfo.cs
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.sourcelink.json
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\scopedcss\bundle\DependencyInjectionMVC_Auth_Fixed.styles.css
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\staticwebassets.build.json
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\staticwebassets.development.json
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\staticwebassets\msbuild.DependencyInjectionMVC_Auth_Fixed.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\staticwebassets\msbuild.DependencyInjectionMVC_Auth_Fixed.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\staticwebassets\msbuild.build.DependencyInjectionMVC_Auth_Fixed.props
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DependencyInjectionMVC_Auth_Fixed.props
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DependencyInjectionMVC_Auth_Fixed.props
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.dll
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\refint\DependencyInjectionMVC_Auth_Fixed.dll
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.pdb
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\DependencyInjectionMVC_Auth_Fixed.genruntimeconfig.cache
+C:\Szkola\CSharp\Lab8\obj\Debug\net8.0\ref\DependencyInjectionMVC_Auth_Fixed.dll

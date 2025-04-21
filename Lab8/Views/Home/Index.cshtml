@@ -1,0 +1,8 @@
+@{
+    ViewData["Title"] = "Strona główna";
+}
+
+<h2>Witaj, @ViewBag.UserName!</h2>
+<p>Twoja rola: <strong>@ViewBag.Role</strong></p>
+<p>@ViewBag.Message</p>
+<a href="/Account/Logout">Wyloguj się</a>

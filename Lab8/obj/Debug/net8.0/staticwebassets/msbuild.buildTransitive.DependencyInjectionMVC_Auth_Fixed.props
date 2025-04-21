@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DependencyInjectionMVC_Auth_Fixed.props" />
+</Project>
