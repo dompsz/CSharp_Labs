@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Net.NetworkInformation;
-using System.Threading.Tasks;
 using System.Security.Cryptography.X509Certificates;
-
+using System.Threading.Tasks;
 
 namespace NetworkMonitorApp
 {
@@ -16,7 +13,9 @@ namespace NetworkMonitorApp
         public string RemoteAddress { get; set; }
         public string State { get; set; }
         public int ProcessId { get; set; }
+        public string ProcessName { get; set; }
     }
+
     public class NetworkScanner
     {
         public List<ConnectionInfo> GetActiveConnections()
@@ -43,15 +42,23 @@ namespace NetworkMonitorApp
                     if (line.StartsWith("  TCP") || line.StartsWith("TCP"))
                     {
                         var tokens = line.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                        if (tokens.Length >= 5)
+                        if (tokens.Length >= 5 && int.TryParse(tokens[4], out var pid))
                         {
+                            string processName = "[unknown]";
+                            try
+                            {
+                                processName = Process.GetProcessById(pid).ProcessName;
+                            }
+                            catch { }
+
                             connections.Add(new ConnectionInfo
                             {
                                 Protocol = tokens[0],
                                 LocalAddress = tokens[1],
                                 RemoteAddress = tokens[2],
                                 State = tokens[3],
-                                ProcessId = int.TryParse(tokens[4], out var pid) ? pid : 0
+                                ProcessId = pid,
+                                ProcessName = processName
                             });
                         }
                     }
@@ -59,6 +66,7 @@ namespace NetworkMonitorApp
             }
             return connections;
         }
+
         public string VerifyFileSignature(int processId)
         {
             try
@@ -66,7 +74,6 @@ namespace NetworkMonitorApp
                 using (var process = Process.GetProcessById(processId))
                 {
                     string filePath;
-
                     try
                     {
                         filePath = process.MainModule?.FileName;
@@ -79,12 +86,7 @@ namespace NetworkMonitorApp
                     if (string.IsNullOrEmpty(filePath))
                         return "[UNSIGNED or INVALID]";
 
-                    X509Certificate certBase = X509Certificate.CreateFromSignedFile(filePath);
-                    if (certBase == null)
-                        return "[UNSIGNED or INVALID]";
-
-                    var cert = new X509Certificate2(certBase);
-
+                    var cert = new X509Certificate2(X509Certificate.CreateFromSignedFile(filePath));
                     var chain = new X509Chain
                     {
                         ChainPolicy = new X509ChainPolicy
@@ -96,18 +98,14 @@ namespace NetworkMonitorApp
                         }
                     };
 
-                    bool isValid = chain.Build(cert);
-
-                    return isValid ? "[SIGNED & VALID]" : "[UNSIGNED or INVALID]";
+                    return chain.Build(cert) ? "[SIGNED & VALID]" : "[UNSIGNED or INVALID]";
                 }
             }
-            catch (Exception ex)
+            catch
             {
-                Debug.WriteLine($"Signature check failed for PID {processId}: {ex.Message}");
                 return "[UNSIGNED or INVALID]";
             }
         }
-
     }
 
     class Program
@@ -116,12 +114,15 @@ namespace NetworkMonitorApp
         {
             var scanner = new NetworkScanner();
             var connections = scanner.GetActiveConnections();
-            Console.WriteLine("Aktywne połączenia:");
+
+            Console.WriteLine("Prot\tLocal Address\t\tRemote Address\t\tPID\tProcess Name\t\tState\t\tSignature");
             foreach (var conn in connections)
             {
                 var signatureStatus = scanner.VerifyFileSignature(conn.ProcessId);
-                if (!(signatureStatus == "[ACCESS DENIED]"))
-                    Console.WriteLine($"{conn.Protocol} | {conn.LocalAddress} -> {conn.RemoteAddress} | PID: {conn.ProcessId} | {conn.State} | Signature: {signatureStatus}");
+                if (signatureStatus != "[ACCESS DENIED]")
+                {
+                    Console.WriteLine($"{conn.Protocol}\t{conn.LocalAddress,-22}\t{conn.RemoteAddress,-22}\t{conn.ProcessId}\t{conn.ProcessName,-16}\t{conn.State,-12}\t{signatureStatus}");
+                }
             }
         }
     }

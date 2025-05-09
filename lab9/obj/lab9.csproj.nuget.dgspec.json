@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\lab9\\lab9.csproj": {}
+    "C:\\Szkola\\CSharp\\lab9\\lab9.csproj": {}
   },
   "projects": {
-    "C:\\lab9\\lab9.csproj": {
+    "C:\\Szkola\\CSharp\\lab9\\lab9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\lab9\\lab9.csproj",
+        "projectUniqueName": "C:\\Szkola\\CSharp\\lab9\\lab9.csproj",
         "projectName": "lab9",
-        "projectPath": "C:\\lab9\\lab9.csproj",
+        "projectPath": "C:\\Szkola\\CSharp\\lab9\\lab9.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\lab9\\obj\\",
+        "outputPath": "C:\\Szkola\\CSharp\\lab9\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

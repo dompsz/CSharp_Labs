@@ -1,1 +1,4 @@
 *.rar
+/lab9/.vs
+/lab9/bin
+/lab9/obj
