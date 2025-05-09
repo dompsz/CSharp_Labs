@@ -27,3 +27,8 @@ C:\Szkola\CSharp\lab9\obj\Debug\net8.0\refint\lab9.dll
 C:\Szkola\CSharp\lab9\obj\Debug\net8.0\lab9.pdb
 C:\Szkola\CSharp\lab9\obj\Debug\net8.0\lab9.genruntimeconfig.cache
 C:\Szkola\CSharp\lab9\obj\Debug\net8.0\ref\lab9.dll
+C:\Szkola\CSharp\lab9\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Szkola\CSharp\lab9\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Szkola\CSharp\lab9\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Szkola\CSharp\lab9\obj\Debug\net8.0\lab9.csproj.AssemblyReference.cache
+C:\Szkola\CSharp\lab9\obj\Debug\net8.0\lab9.csproj.Up2Date

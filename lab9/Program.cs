@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Security.Cryptography.X509Certificates;
-using System.Threading.Tasks;
 
 namespace NetworkMonitorApp
 {
@@ -18,6 +15,33 @@ namespace NetworkMonitorApp
 
     public class NetworkScanner
     {
+        public void LogUnsignedProcess(ConnectionInfo conn, string signatureStatus)
+        {
+            const string source = "NetworkMonitorApp";
+            const string logName = "Application";
+
+            try
+            {
+                if (!EventLog.SourceExists(source))
+                {
+                    EventLog.CreateEventSource(source, logName);
+                }
+
+                string message = $"Wykryto niepodpisany proces:\n" +
+                                 $"PID: {conn.ProcessId}\n" +
+                                 $"Nazwa: {conn.ProcessName}\n" +
+                                 $"Adres lokalny: {conn.LocalAddress}\n" +
+                                 $"Adres zdalny: {conn.RemoteAddress}\n" +
+                                 $"Status podpisu: {signatureStatus}";
+
+                EventLog.WriteEntry(source, message, EventLogEntryType.Warning);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"[EventLog] Nie udało się zapisać logu: {ex.Message}");
+            }
+        }
+
         public List<ConnectionInfo> GetActiveConnections()
         {
             var connections = new List<ConnectionInfo>();
@@ -119,11 +143,18 @@ namespace NetworkMonitorApp
             foreach (var conn in connections)
             {
                 var signatureStatus = scanner.VerifyFileSignature(conn.ProcessId);
+
                 if (signatureStatus != "[ACCESS DENIED]")
                 {
                     Console.WriteLine($"{conn.Protocol}\t{conn.LocalAddress,-22}\t{conn.RemoteAddress,-22}\t{conn.ProcessId}\t{conn.ProcessName,-16}\t{conn.State,-12}\t{signatureStatus}");
+
+                    if (signatureStatus == "[UNSIGNED or INVALID]")
+                    {
+                        scanner.LogUnsignedProcess(conn, signatureStatus);
+                    }
                 }
             }
+
         }
     }
 }
