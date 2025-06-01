@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gLf7PrxQ+X0=",
+  "success": true,
+  "projectFilePath": "C:\\Szkola\\CSharp\\lab10\\lab10.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\system.codedom\\9.0.5\\system.codedom.9.0.5.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.management\\9.0.5\\system.management.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
